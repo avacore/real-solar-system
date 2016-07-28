@@ -1,0 +1,96 @@
+.newspaper {
+    width: 960px;
+    height: 732px;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    background-color: lightgray;
+    margin-bottom: 96px;
+}
+
+.newspaper::before {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: 12px;
+    content: "The Truth of Arstotzka";
+    font: normal bold 36pt 'UnifrakturMaguntia', serif;
+    display: block;
+    text-align: center;
+    border-top: 3px solid black;
+    padding: 10px;
+}
+
+.newspaper > aside.date {
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    top: 80px;
+    font: normal normal 12pt 'Sanchez', serif;
+    display: block;
+    text-align: center;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 3px;
+}
+
+.newspaper > img.headline {
+    width: 456px;
+    position: absolute;
+    right: 12px;
+    top: 120px;
+    z-index: 1;
+}
+
+.newspaper > h1.headline {
+    width: 936px;
+    height: 416px;
+    position: absolute;
+    left: 12px;
+    top: 120px;
+    margin: 0;
+    font: normal bold 18pt 'Sanchez', serif;
+    text-align: center;
+    column-count: 4;
+    column-gap: 24px;
+}
+
+.newspaper > h1.headline::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere dui ac arcu pharetra elementum. Duis vel auctor velit. Curabitur lacus nisi, pretium et nunc et, semper molestie velit. Etiam maximus diam et maximus sollicitudin. Nullam bibendum in est eget molestie. Ut laoreet tempus est vitae lacinia. Maecenas consequat elit non odio porta, vel faucibus nisi ultrices. Duis lobortis vulputate ante, nec vestibulum sem consequat at. Sed et arcu sed nisl scelerisque placerat ac eget sem. Ut ullamcorper nisi sit amet nisi faucibus, vel ultricies purus tempor. Quisque volutpat, purus sit amet gravida imperdiet, nulla nibh volutpat lorem, eget interdum nisl risus eu libero. Proin suscipit enim eu feugiat bibendum. Mauris placerat luctus ex. Pellentesque sit amet justo vulputate, imperdiet velit sit amet, dictum lorem. Sed blandit lorem imperdiet diam laoreet, in volutpat nisi mollis. Nam accumsan diam nec pretium pharetra. Aenean finibus ultricies justo in aliquam. Nam ac purus nunc. Vestibulum non erat sapien. Aenean leo ex, convallis at odio eu, dignissim scelerisque ex. Duis egestas tincidunt lacus. Nullam dolor nisl, elementum id convallis sit amet, suscipit quis ex. Morbi ornare est eget neque porttitor, sit amet vehicula ante sagittis. Donec molestie ipsum vel velit lobortis, vitae rutrum nulla sodales. Nam rhoncus tempus metus at sollicitudin. Aenean id quam erat. Proin maximus dui ultricies, interdum diam ut, viverra felis. Suspendisse malesuada rutrum ex, nec consequat sem pellentesque vitae. Curabitur eu interdum lectus. Donec vitae erat sem. Mauris rhoncus diam id velit feugiat blandit. Quisque molestie aliquet iaculis. Sed metus leo, tristique sit amet est et, aliquet facilisis ex. Sed egestas tincidunt turpis nec rhoncus. Etiam et purus eget diam pellentesque aliquet. Sed consequat sed est quis mollis. In luctus egestas sapien id blandit. Pellentesque vel lacus viverra, fringilla libero nec, luctus erat. Donec lobortis arcu sit amet mi ullamcorper, ut maximus lectus mattis. Nunc viverra iaculis nulla. Praesent lectus lorem, facilisis ac enim ut, iaculis lobortis velit. Nullam id sapien vel risus tincidunt commodo. In gravida pellentesque ante. Quisque eu lectus sagittis, volutpat sapien fringilla, faucibus urna. Integer non sapien ac lorem sodales imperdiet. Mauris finibus consequat laoreet. Nullam ut interdum urna, et viverra felis. Maecenas iaculis semper arcu at iaculis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce cursus varius condimentum. Nullam pulvinar eu risus vel ornare. Mauris nec ante velit. Duis eleifend id metus ac malesuada. Nam vel finibus justo. Nam et nisl pulvinar, dapibus enim at, pellentesque lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam sed massa vitae odio maximus bibendum a nec ligula. Cras in odio ipsum. Nullam nec accumsan diam. Proin commodo, leo ut iaculis tempor, dui tortor volutpat sapien, non fermentum est sem ac erat. Morbi pretium magna vitae leo iaculis accumsan sed at purus. Phasellus non elit vitae orci consequat ullamcorper vel nec neque. Praesent tristique urna sit amet nunc molestie rhoncus. Nam feugiat laoreet velit, quis commodo ligula sagittis vitae. Curabitur mollis congue lacus sed interdum. Nam id leo volutpat, molestie nibh eget, scelerisque odio. Sed posuere libero nec ipsum accumsan, quis tempus leo venenatis. Morbi mollis elit in ipsum cursus eleifend. Etiam sagittis nulla vel viverra commodo. Etiam eu nibh justo. Sed mollis pulvinar ex non aliquet. Aenean congue lectus in lorem cursus, ac dapibus sapien elementum. Pellentesque gravida ligula in lacinia dictum. In dapibus blandit felis id condimentum. Pellentesque dictum neque nec velit condimentum, vel eleifend tellus elementum. Sed venenatis, dolor sed pretium lacinia, tellus nulla accumsan ante, vitae pharetra lacus felis eget nibh. Fusce vitae pharetra nulla. Aliquam efficitur sagittis lobortis. Nullam lobortis ipsum rutrum est maximus, sed blandit lacus rhoncus. Ut condimentum augue vitae est porttitor, nec egestas odio pharetra. Integer vel molestie ex. Suspendisse potenti. Aliquam erat volutpat. Mauris placerat, turpis eu vulputate hendrerit, elit elit efficitur quam, in mattis sem justo ut orci. Suspendisse imperdiet nisl sit amet tellus molestie, sed commodo sapien ultricies. Ut vehicula neque arcu, et venenatis nunc scelerisque non. Morbi sit amet dui tempor, efficitur arcu sed, facilisis neque. Aliquam bibendum posuere mi vel vehicula. Praesent lobortis turpis erat, at varius lacus pharetra pellentesque. Sed placerat rutrum mauris id consectetur. Quisque varius quam vel consectetur tempor. Sed tempor lacus non magna luctus laoreet. Sed nisi ipsum, finibus non sapien quis, pulvinar vestibulum massa. Pellentesque massa tellus, placerat nec viverra at, elementum et eros. Quisque accumsan ornare ipsum, at auctor est luctus a. Donec eleifend nunc metus, ac iaculis augue ornare id. Duis at fermentum neque. Sed placerat ipsum nisi, sed tristique massa pulvinar ac. Aenean vel lectus posuere, pellentesque leo in, auctor sapien. Aenean blandit pretium lectus. Mauris varius ullamcorper massa ac accumsan. Morbi tempus ac elit vel dapibus. Ut at quam arcu. Fusce tempus ultrices ipsum et lacinia. Nam consequat sodales urna a vestibulum. Proin leo nulla, semper vestibulum maximus vel, malesuada et nunc. Nunc imperdiet a tellus at auctor. Donec turpis lorem, consectetur quis laoreet sed, pulvinar non velit. In ullamcorper ultrices interdum. Quisque ornare convallis libero sed aliquam. Mauris commodo quam justo, et interdum ex pulvinar a. Phasellus pellentesque pellentesque elit sit amet maximus. Sed sit amet metus sit amet quam rhoncus ultrices. Aliquam erat volutpat. Duis gravida condimentum magna, eu maximus risus. Ut maximus mauris non sem ultrices, vel maximus augue vestibulum. Phasellus ut nisl justo. Fusce ornare at sapien vitae sollicitudin. Vivamus augue quam, lobortis sed commodo eu, dignissim vel odio. Aliquam lectus nisi, ultricies malesuada lectus a, ultricies ultrices lectus. Praesent finibus sapien nec justo placerat, vitae interdum metus pretium. Maecenas vestibulum, erat aliquet maximus maximus, lorem mauris scelerisque libero, quis egestas mi nunc in elit. Proin eget porttitor nisi, placerat iaculis justo. Proin eu est faucibus augue consequat posuere. Cras tincidunt velit lorem, ut rhoncus eros suscipit id. Etiam laoreet lectus ut rhoncus consequat. Nunc sem justo, luctus vitae scelerisque gravida, feugiat ut velit. Quisque feugiat cursus turpis non sollicitudin. Sed massa sapien, vehicula ac dolor sed, maximus maximus sapien. Pellentesque vitae ipsum id mi pulvinar sollicitudin quis ut nunc. Integer leo orci, molestie non venenatis sed, elementum cursus odio. Nullam nec accumsan nulla. Vestibulum quam lectus, tempor vitae libero at, varius porta velit.";
+    font: normal normal 10pt 'Pathway Gothic One', sans-serif;
+    display: block;
+    text-align: justify;
+}
+
+.newspaper > img.crew {
+    width: 216px;
+    position: absolute;
+    left: 12px;
+    top: 560px;
+    z-index: 1;
+}
+
+.newspaper > h1.crew {
+    width: 696px;
+    height: 160px;
+    position: absolute;
+    right: 12px;
+    top: 560px;
+    margin: 0;
+    font: normal bold 14pt 'Sanchez', serif;
+    text-align: center;
+    column-count: 3;
+    column-gap: 24px;
+}
+
+.newspaper > h1.crew::after {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id tempor sapien. Proin risus mauris, feugiat id accumsan in, elementum non justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec faucibus erat eu nisi pretium aliquam. Nullam facilisis turpis a pharetra elementum. Fusce sagittis at ante at efficitur. Nam tincidunt malesuada est, sed aliquam eros cursus at. Mauris elit felis, pretium eget ultricies sed, sagittis sed lectus. Pellentesque aliquam elit metus, vel gravida nisl rhoncus quis. Etiam dapibus blandit metus ac tincidunt. Cras ullamcorper dolor non commodo vehicula. Morbi porta dictum lacus sed fermentum. Morbi nibh nulla, euismod venenatis eleifend quis, rhoncus a dolor. In ac risus sit amet elit pharetra sollicitudin. Donec magna nisl, accumsan vitae maximus in, hendrerit in ligula. Aenean rutrum, lectus quis molestie elementum, mauris purus tincidunt leo, nec vulputate ligula felis id mauris. Quisque iaculis dignissim mauris, sed gravida orci condimentum nec. Praesent semper dignissim felis id ultrices. Donec tristique sem ex, et ultrices elit semper ac. Aliquam gravida nulla magna, vel ullamcorper sapien tincidunt et. Aenean non odio id ipsum sagittis condimentum et non nulla. Nam a luctus justo. Nunc et elit ac libero molestie volutpat. Quisque odio ex, molestie ac risus id, faucibus aliquet urna. Aenean semper ligula eu augue mollis vehicula. Donec ac egestas neque. Proin rutrum urna a leo faucibus tempor. Mauris interdum eros arcu, ac tristique sem pellentesque at. Mauris quis feugiat lorem, non mattis diam. Mauris placerat condimentum urna, at mollis lorem bibendum ut. Sed vel leo eu felis congue luctus. Phasellus blandit rutrum augue ac porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut tellus quis urna rutrum tempus. Suspendisse et leo varius, accumsan turpis non, porta massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum eget tortor ut nisi luctus sagittis. Aliquam at sollicitudin ex. Donec velit est, vulputate ut varius eget, finibus vitae lacus. Duis pharetra ullamcorper purus. Suspendisse vestibulum lacus ut ante dapibus dictum. Praesent metus augue, porta eu varius nec, placerat in metus. Etiam fringilla molestie est varius posuere. Fusce sodales dolor vitae purus imperdiet eleifend venenatis non neque. Pellentesque sodales tellus at imperdiet elementum. Vestibulum lobortis arcu leo, ut ultricies risus vulputate eget. Sed cursus enim sit amet vulputate molestie. In nec auctor turpis. Suspendisse bibendum metus et ultricies consectetur. Mauris sagittis magna et massa bibendum porta. Quisque gravida lacus ut condimentum vestibulum. Integer lobortis malesuada massa, vel placerat nibh dictum at.";
+    font: normal normal 10pt 'Pathway Gothic One', sans-serif;
+    display: block;
+    text-align: justify;
+}
+
+.old img {
+    -webkit-filter: url("filters.svg#old");
+    filter: url("filters.svg#old");
+}
